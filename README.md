@@ -1,31 +1,15 @@
-# Node.js Hello World
+# README
 
-Simple Node.js + Vercel example that returns a "Hello World" response.
+This is the [Express](https://expressjs.com) [Hello world](https://expressjs.com/en/starter/hello-world.html) example on [Render](https://render.com).
 
-## How to Use
+The app in this repo is deployed at [https://express.onrender.com](https://express.onrender.com).
 
-You can choose from one of the following two methods to use this repository:
+## Deployment
 
-### One-Click Deploy
+See https://render.com/docs/deploy-node-express-app or follow the steps below:
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
+Create a new web service with the following values:
+  * Build Command: `yarn`
+  * Start Command: `node app.js`
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/examples/tree/main/solutions/node-hello-world&project-name=node-hello-world&repository-name=node-hello-world)
-
-### Clone and Deploy
-
-```bash
-git clone https://github.com/vercel/examples/tree/main/solutions/node-hello-world
-```
-
-Install the Vercel CLI:
-
-```bash
-npm i -g vercel
-```
-
-Then run the app at the root of the repository:
-
-```bash
-vercel dev
-```
+That's it! Your web service will be live on your Render URL as soon as the build finishes.
