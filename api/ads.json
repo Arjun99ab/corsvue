@@ -1,0 +1,280 @@
+{
+    "columns": [
+      {
+        "boid": "F8658D13-1579-46EC-B968-CFB627C1001F",
+        "alignment": "left",
+        "allowEditing": false,
+        "allowFiltering": true,
+        "allowHeaderFiltering": false,
+        "allowSearch": true,
+        "allowSorting": true,
+        "autoExpandGroup": false,
+        "calculateDisplayValue": "PXP.DataGridTemplates.CalculateValue",
+        "calculateSortValue": "PXP.DataGridTemplates.CalculateValue",
+        "caption": "Upload Date",
+        "cssClass": "",
+        "dataField": "DocumentUploadDate",
+        "dataType": "string",
+        "encodeHtml": true,
+        "width": "auto",
+        "Required": false
+      },
+      {
+        "boid": "F8658D13-1579-46EC-B968-CFB627C1001F",
+        "alignment": "left",
+        "allowEditing": false,
+        "allowFiltering": true,
+        "allowHeaderFiltering": false,
+        "allowSearch": true,
+        "allowSorting": true,
+        "autoExpandGroup": false,
+        "calculateDisplayValue": "PXP.DataGridTemplates.CalculateValue",
+        "calculateSortValue": "PXP.DataGridTemplates.CalculateValue",
+        "caption": "Document",
+        "cssClass": "",
+        "dataField": "DocumentTitle",
+        "dataType": "string",
+        "encodeHtml": false,
+        "width": "50%",
+        "Required": false
+      },
+      {
+        "boid": "F8658D13-1579-46EC-B968-CFB627C1001F",
+        "alignment": "left",
+        "allowEditing": false,
+        "allowFiltering": true,
+        "allowHeaderFiltering": false,
+        "allowSearch": false,
+        "allowSorting": true,
+        "autoExpandGroup": false,
+        "caption": "Document Category",
+        "cssClass": "",
+        "dataField": "DocumentCategory",
+        "encodeHtml": true,
+        "lookup": {
+          "allowClearing": true,
+          "dataSource": [
+            {
+              "Value": "Interim Progress Report",
+              "Desc": "Interim Progress Report"
+            },
+            {
+              "Value": "MAP Reports",
+              "Desc": "MAP Reports"
+            },
+            {
+              "Value": "Report Card",
+              "Desc": "Report Card"
+            },
+            {
+              "Value": "SGGCR- Student Grades & Graduation Credit Report",
+              "Desc": "SGGCR- Student Grades & Graduation Credit Report"
+            }
+          ],
+          "displayExpr": "Desc",
+          "valueExpr": "Value"
+        },
+        "width": "auto",
+        "wordWrapEnabled": true,
+        "Required": false
+      }
+    ],
+    "filterRow": {
+      "visible": true
+    },
+    "remoteOperations": false,
+    "sortByGroupSummaryInfo": [],
+    "sorting": {
+      "mode": "multiple"
+    },
+    "cellHintEnabled": false,
+    "dataSource": [
+      {
+        "DocumentUploadDate": "03/04/2024",
+        "DocumentTitle": "<a target=\"_blank\" href=\"PXP_ShowDocument.aspx?AGU=&docToken=a0ZhSkZCNm1DTGZaeUtMK0RiUWhiMEZORm1CMkx2aTU5cVlwOEhlSjJXcVBvSndNZi9OR2pEbmVoVExnRUxocnpJZnZyV29QbzhzaDBGWThaRUVqbVl3S3NwdlBRNjVuaUVRQmZ3VDNCY2EwbHZWU3BlNDliV3pPK3hHS1RHSldJZ0huU2x2MWp1SXA2cG5Bb3djVk9oLy9kaW10QzVjZUg4dUtJUllyQ3pZPQ2\">23-24 MP3 Interim</a>",
+        "DocumentCategory": "Interim Progress Report"
+      },
+      {
+        "DocumentUploadDate": "01/30/2024",
+        "DocumentTitle": "<a target=\"_blank\" href=\"PXP_ShowDocument.aspx?AGU=&docToken=a0ZhSkZCNm1DTGZaeUtMK0RiUWhiMEZORm1CMkx2aTU5cVlwOEhlSjJXcVBvSndNZi9OR2pEbmVoVExnRUxocnVFS003aFhvOEdnSENwTk1oZHVDa1B5c2xYVUpXQ2RwYnFTVXJmSVAvQWk4bE1HREk0dkVpTUw4VnFONUdoOG9FQnZtUmVmMkYzZVVVQTIxZVdiT1Z6WVN6MDB3UFNING44MDE2SFY4WWFrPQ2\">23-24 MP2 Report Card</a>",
+        "DocumentCategory": "Report Card"
+      },
+      {
+        "DocumentUploadDate": "12/11/2023",
+        "DocumentTitle": "<a target=\"_blank\" href=\"PXP_ShowDocument.aspx?AGU=&docToken=a0ZhSkZCNm1DTGZaeUtMK0RiUWhiMEZORm1CMkx2aTU5cVlwOEhlSjJXcVBvSndNZi9OR2pEbmVoVExnRUxocjlNcmRST1AxdEdIMlllWVZXcE5nSWtwZ3JyMUtITFpZc3RodjdPWDdqOWs1d0RxdFNPUHZRT1Nkc2lxNDZoNndLSy9seFZkMU5wQUpjeVV2ZkpmSjdxSW52NDltZ1ZKV0ZaSzFJRE1rWWNvPQ2\">23-24 MP2 Interim</a>",
+        "DocumentCategory": "Interim Progress Report"
+      },
+      {
+        "DocumentUploadDate": "11/14/2023",
+        "DocumentTitle": "<a target=\"_blank\" href=\"PXP_ShowDocument.aspx?AGU=&docToken=a0ZhSkZCNm1DTGZaeUtMK0RiUWhiMEZORm1CMkx2aTU5cVlwOEhlSjJXcVBvSndNZi9OR2pEbmVoVExnRUxoci96enF4T1VyWGhrNnZFSmNPUVNjaTRUdkQ3MnN4T0cyaU1KdCtUTmo2Z1ZPSWExNkdUOWFCMTNFaW05R0ViMmFjVlNPUGI1TG9YblljR3ZIcm1Hb0hEWDlUbHF3N0lhVjN6M005cVllblMwPQ2\">23-24 MP1 Report Card</a>",
+        "DocumentCategory": "Report Card"
+      },
+      {
+        "DocumentUploadDate": "11/10/2023",
+        "DocumentTitle": "<a target=\"_blank\" href=\"PXP_ShowDocument.aspx?AGU=&docToken=a0ZhSkZCNm1DTGZaeUtMK0RiUWhiMEZORm1CMkx2aTU5cVlwOEhlSjJXcVBvSndNZi9OR2pEbmVoVExnRUxocmk1VXdNc3BuUnR2VzJ4dkdaejU0aTE4eHNSQjNPS01hTVpDSUVuaVgyK09pMHRyVFZacTJsY0RzT2xCSW5uVXMvdU54clJhZllocGFFNjZZSmJKTFZzSkw1WFhrWG4rdWcrazZidlRST2swPQ2\">Student Grades And Graduation Credit Report</a>",
+        "DocumentCategory": "SGGCR- Student Grades & Graduation Credit Report"
+      },
+      {
+        "DocumentUploadDate": "10/20/2023",
+        "DocumentTitle": "<a target=\"_blank\" href=\"PXP_ShowDocument.aspx?AGU=&docToken=a0ZhSkZCNm1DTGZaeUtMK0RiUWhiMEZORm1CMkx2aTU5cVlwOEhlSjJXcVBvSndNZi9OR2pEbmVoVExnRUxockZ2Sk1mRGJUR3Q1U0ZnbG51QkxGTHNhRFRZT2FMSXZNVjlCeHNwcUhuWkZwbVlSK1JDSHpnYW5zR01HOGR3dTRoZ3MrU1k3Mkhid2Jock15YWdLa085dXcvVmcyWGdwalk4dDE5MDhFWWZjPQ2\">MAP Report - FALL 2023</a>",
+        "DocumentCategory": "MAP Reports"
+      },
+      {
+        "DocumentUploadDate": "09/30/2023",
+        "DocumentTitle": "<a target=\"_blank\" href=\"PXP_ShowDocument.aspx?AGU=&docToken=a0ZhSkZCNm1DTGZaeUtMK0RiUWhiMEZORm1CMkx2aTU5cVlwOEhlSjJXcVBvSndNZi9OR2pEbmVoVExnRUxockcxSkRhQUY3VGh3bVpHenZJczRISU1EMUVYOXZWSjYzeG5iSlFvV0dLZnJrZ3RmcGtKUXphS3lyakh5MlN1UXVqWE5xYXA5bGhVcXV2MjBLMTJFc2FlUWpLTUpHN3BvampuT3ByYW80ZmR3PQ2\">23-24 MP1 Interim</a>",
+        "DocumentCategory": "Interim Progress Report"
+      },
+      {
+        "DocumentUploadDate": "06/22/2023",
+        "DocumentTitle": "<a target=\"_blank\" href=\"PXP_ShowDocument.aspx?AGU=&docToken=a0ZhSkZCNm1DTGZaeUtMK0RiUWhiMEZORm1CMkx2aTU5cVlwOEhlSjJXcVBvSndNZi9OR2pEbmVoVExnRUxocmdXd25rZnBRMXZDQ0xyWGc0cEcxdU96ZDdFNklac2VnazExQ1I4T0JPSVhBcHllVmNJK2lDQmFVQkRTUVp0WkFOTjhvaTVmYndJVnBaR3A4YVB2MytkZHdYaEJRbzh5bTQ1eDF2L1BzK2g4PQ2\">22-23 MP4 Report Card</a>",
+        "DocumentCategory": "Report Card"
+      },
+      {
+        "DocumentUploadDate": "06/19/2023",
+        "DocumentTitle": "<a target=\"_blank\" href=\"PXP_ShowDocument.aspx?AGU=&docToken=a0ZhSkZCNm1DTGZaeUtMK0RiUWhiMEZORm1CMkx2aTU5cVlwOEhlSjJXcVBvSndNZi9OR2pEbmVoVExnRUxockJJMnJOQ2trN25DMGVZallXMUNIWjdueW9HckZlanJSMWJqRkV1T3FNbFhMQnJYdUdmMWpqeGtCTmp0MkFGWTNIZFZzTFo1ZEN3T281TnQrdW1DbkhHcUp6MEZtUE8zQWVEeGNLSEk1UWswPQ2\">MAP Report - Spring 2023</a>",
+        "DocumentCategory": "MAP Reports"
+      },
+      {
+        "DocumentUploadDate": "05/15/2023",
+        "DocumentTitle": "<a target=\"_blank\" href=\"PXP_ShowDocument.aspx?AGU=&docToken=a0ZhSkZCNm1DTGZaeUtMK0RiUWhiMEZORm1CMkx2aTU5cVlwOEhlSjJXcVBvSndNZi9OR2pEbmVoVExnRUxoclEydGp4dlJDSnN3UnJaL1N6OHd0RWVmYnlKUzNwMDlKeFA4b3ZZTHpnTmRsZmVaQ0JUMUJuTUZZUXJRZ3RxLzdubndodnJ2QXJtSWt5MDZyTllQN2c1bmFoYkRmMCtyRGQxcGYyY1VSaWJjPQ2\">22-23 MP4 Interim</a>",
+        "DocumentCategory": "Interim Progress Report"
+      },
+      {
+        "DocumentUploadDate": "04/11/2023",
+        "DocumentTitle": "<a target=\"_blank\" href=\"PXP_ShowDocument.aspx?AGU=&docToken=a0ZhSkZCNm1DTGZaeUtMK0RiUWhiMEZORm1CMkx2aTU5cVlwOEhlSjJXcVBvSndNZi9OR2pEbmVoVExnRUxoclVLSk9wemJEeWJTUDNsaTRSZUFHOTA0QlErSHdObjRVWngwcGdDcm5mOERReUVQV0V4aGY5YXBJeDJ4UE1GYkhwbHFRcUliSUd0Rk1RckVLWitYcVZIakFYb3VndWxlVDhJclc0ZFJVZjBjPQ2\">22-23 MP3 Report Card</a>",
+        "DocumentCategory": "Report Card"
+      },
+      {
+        "DocumentUploadDate": "03/08/2023",
+        "DocumentTitle": "<a target=\"_blank\" href=\"PXP_ShowDocument.aspx?AGU=&docToken=a0ZhSkZCNm1DTGZaeUtMK0RiUWhiMEZORm1CMkx2aTU5cVlwOEhlSjJXcVBvSndNZi9OR2pEbmVoVExnRUxocjFjUHBEU3BpTEFXbFM2OTdWdWRMQVptdWV6L2pzZ2J6NkpDRnVDNlVDdXgvY0FuRjc1bkVpWlRCbVd3TlZ3aGlvT3ROTzJ6bzFVTnh0a0lNd1BwbzkvNUJLR044RmlZaVdBZkhPa1V6MnF3PQ2\">22-23 MP3 Interim</a>",
+        "DocumentCategory": "Interim Progress Report"
+      },
+      {
+        "DocumentUploadDate": "02/02/2023",
+        "DocumentTitle": "<a target=\"_blank\" href=\"PXP_ShowDocument.aspx?AGU=&docToken=a0ZhSkZCNm1DTGZaeUtMK0RiUWhiMEZORm1CMkx2aTU5cVlwOEhlSjJXcVBvSndNZi9OR2pEbmVoVExnRUxocnhNcTNSSmE4TEx3RThwa21QRHczdnI2NFZlT0dsbytzcEM5WUF3UDZuRi9Pa215dU9kOStpd09LWlNSUVRRQmdoc3RwcHFIK1lQNDZQdW1jc0xTQ2ZIMkxBVHIyNVVxR3B3VDZKcFp2Y2ZVPQ2\">22-23 MP2 Report Card</a>",
+        "DocumentCategory": "Report Card"
+      },
+      {
+        "DocumentUploadDate": "12/20/2022",
+        "DocumentTitle": "<a target=\"_blank\" href=\"PXP_ShowDocument.aspx?AGU=&docToken=a0ZhSkZCNm1DTGZaeUtMK0RiUWhiMEZORm1CMkx2aTU5cVlwOEhlSjJXcVBvSndNZi9OR2pEbmVoVExnRUxoclUxSFNRK2swcHJ2bWRUYW9wVzNkWjVYMDFNZlRac2NXRVkzMEg3RU11SEtYRTcxRi9KTVVtYSs3WHc3K3VBek9seElLaXlUUnlNQjNDem5PcWxUMnpoN2dtbWg1NDR1VlV6WjdaSnZEcGxZPQ2\">22-23 MP2 Interim</a>",
+        "DocumentCategory": "Interim Progress Report"
+      },
+      {
+        "DocumentUploadDate": "11/13/2022",
+        "DocumentTitle": "<a target=\"_blank\" href=\"PXP_ShowDocument.aspx?AGU=&docToken=a0ZhSkZCNm1DTGZaeUtMK0RiUWhiMEZORm1CMkx2aTU5cVlwOEhlSjJXcVBvSndNZi9OR2pEbmVoVExnRUxocklSUUE3WVphRWxPWStMRDhhQW9uclczcHppT3RQclBQbCtwWWdjcWE5dnpmUUZtc0l4blBKV1VMMHltbi9JT2laTEg0bDQyaG9uM0hTRndnSEV0Y0ZVOXowNDU1dmJHRzE5cGVmZzZ4WnQ4PQ2\">22-23 MP1 Report Card</a>",
+        "DocumentCategory": "Report Card"
+      },
+      {
+        "DocumentUploadDate": "10/30/2022",
+        "DocumentTitle": "<a target=\"_blank\" href=\"PXP_ShowDocument.aspx?AGU=&docToken=a0ZhSkZCNm1DTGZaeUtMK0RiUWhiMEZORm1CMkx2aTU5cVlwOEhlSjJXcVBvSndNZi9OR2pEbmVoVExnRUxoclVXQ1FlUEFmWmxzckdFOFA3Q0tlNnIrRWpUeGRxN09rck9RQjVXZFRiOHhxWUcvcTZwN2hRZkxEa29NWkZ4a01GTXYyWE1vQlFYSUgzRVVLWFRUUXpMdTNUUHBCL0RMTzJXOUhYYnUyRDZNPQ2\">MAP Report - Fall 2022</a>",
+        "DocumentCategory": "MAP Reports"
+      },
+      {
+        "DocumentUploadDate": "10/12/2022",
+        "DocumentTitle": "<a target=\"_blank\" href=\"PXP_ShowDocument.aspx?AGU=&docToken=a0ZhSkZCNm1DTGZaeUtMK0RiUWhiMEZORm1CMkx2aTU5cVlwOEhlSjJXcVBvSndNZi9OR2pEbmVoVExnRUxoclhhV0xXdU1wdm90d0xsSWdMWW1mUEhWbGtoYitDREp2Nm9KWE9kenNKS2hNSW9xakF1MjB0S2NHOEU0TVN6ZWszZkFWTXhOLzZ6Tlo5b3RlNm12Nzh1VVZEeE52bnRQOG9nbE9uckFwMHhBPQ2\">22-23 MP1 Interim</a>",
+        "DocumentCategory": "Interim Progress Report"
+      },
+      {
+        "DocumentUploadDate": "06/24/2022",
+        "DocumentTitle": "<a target=\"_blank\" href=\"PXP_ShowDocument.aspx?AGU=&docToken=a0ZhSkZCNm1DTGZaeUtMK0RiUWhiMEZORm1CMkx2aTU5cVlwOEhlSjJXcVBvSndNZi9OR2pEbmVoVExnRUxoclFZSEVMdjk2dmMzc2NnN1U3OE5DbERJOW1LVXc1bkU2VzJQSTRhT1owNUhkMTMwZk9vRDJuL1MrODM5MG96UEh0akg5d2RydUMySHUrRXo2Q2MyYVJQUFJiWE5nL3hOZWtQaEtqNTRHYlQ0PQ2\">MAP Report - Spring 2022</a>",
+        "DocumentCategory": "MAP Reports"
+      },
+      {
+        "DocumentUploadDate": "06/24/2022",
+        "DocumentTitle": "<a target=\"_blank\" href=\"PXP_ShowDocument.aspx?AGU=&docToken=a0ZhSkZCNm1DTGZaeUtMK0RiUWhiMEZORm1CMkx2aTU5cVlwOEhlSjJXcVBvSndNZi9OR2pEbmVoVExnRUxocnJ0OWpxN29NWTVaQXA4MlZKU0VCQ3N3cGU5bklFLzl2Zm1BUnJvUVVzcUVMbHRKTWt1Z1p2aU83ekVDUy9sN1RYdjFjaVRVS0prVXB2QkZQM29GSW9OeXYrdm1XVmV3WVNsODI0dHpYdHJBPQ2\">21-22 MP4 Report Card</a>",
+        "DocumentCategory": "Report Card"
+      },
+      {
+        "DocumentUploadDate": "05/16/2022",
+        "DocumentTitle": "<a target=\"_blank\" href=\"PXP_ShowDocument.aspx?AGU=&docToken=a0ZhSkZCNm1DTGZaeUtMK0RiUWhiMEZORm1CMkx2aTU5cVlwOEhlSjJXcVBvSndNZi9OR2pEbmVoVExnRUxocm5IczRpbTRlU0hmTVhNL29tR2VjblI4YU9mV3BOT1g4d25wUEFlSlg3MXZDSTNSUG4yQlREdnhkdjN5WnA3T1JvTFFyYytLZndEK2txVEIrNjNWU2QzMTZ6d0trUVNIM01tNmJ3QVZjTDBVPQ2\">21-22 MP4 Interim</a>",
+        "DocumentCategory": "Interim Progress Report"
+      },
+      {
+        "DocumentUploadDate": "04/10/2022",
+        "DocumentTitle": "<a target=\"_blank\" href=\"PXP_ShowDocument.aspx?AGU=&docToken=a0ZhSkZCNm1DTGZaeUtMK0RiUWhiMEZORm1CMkx2aTU5cVlwOEhlSjJXcVBvSndNZi9OR2pEbmVoVExnRUxocnhZbkNSako0TVkxNFdWdis2QXpBZTk4SHJkY0U2M2NEeW9Bb3dRQWhTeGNYaEViVjlqYVQyUUowWFhLbVNhU1NqTDFxTTVlY0JKTTE0ekkwNEFMbERyY2N1aFZIN0t3YXpwZzNOc0FQMThVPQ2\">21-22 MP3 Report Card</a>",
+        "DocumentCategory": "Report Card"
+      },
+      {
+        "DocumentUploadDate": "03/03/2022",
+        "DocumentTitle": "<a target=\"_blank\" href=\"PXP_ShowDocument.aspx?AGU=&docToken=a0ZhSkZCNm1DTGZaeUtMK0RiUWhiMEZORm1CMkx2aTU5cVlwOEhlSjJXcVBvSndNZi9OR2pEbmVoVExnRUxocjlxWjdPWFh2ZTVVZmNnUCtWempkb01reER2T3ZxZWxSNzdjeWx2K1FUUjVFL1hEc2dUbUZTaUlVT0R3QjVqZ1FxdW5DMlFNUCswQzZIampJNldPK1FoVVFPUVVqOVVwSzVhOVRyRzdRbzBNPQ2\">21-22 MP3 Interim</a>",
+        "DocumentCategory": "Interim Progress Report"
+      },
+      {
+        "DocumentUploadDate": "02/02/2022",
+        "DocumentTitle": "<a target=\"_blank\" href=\"PXP_ShowDocument.aspx?AGU=&docToken=a0ZhSkZCNm1DTGZaeUtMK0RiUWhiMEZORm1CMkx2aTU5cVlwOEhlSjJXcVBvSndNZi9OR2pEbmVoVExnRUxoclpWYjFQc25JK0x6MGszR3VxejBEaTZvMG1IUndYcU5mZTdBUjhVOUg2QTN3cW5XbThBSUpiY2VPUG9hNlp2TmhlekkzUnk5SytYeWJhbWhqUHY0Q3ltaXZpM2RTYXhkMFk5RENXbEVNT0FFPQ2\">21-22 MP2 Report Card</a>",
+        "DocumentCategory": "Report Card"
+      },
+      {
+        "DocumentUploadDate": "12/15/2021",
+        "DocumentTitle": "<a target=\"_blank\" href=\"PXP_ShowDocument.aspx?AGU=&docToken=a0ZhSkZCNm1DTGZaeUtMK0RiUWhiMEZORm1CMkx2aTU5cVlwOEhlSjJXcVBvSndNZi9OR2pEbmVoVExnRUxocnhwUGNobnZkUm1NUUtvejFsZUpXL0xXM1dPMUNZNEJJMGRqa0plQTZ1UlIxcWM3azJOLzZ4OEtsZFJvd1NIekxyQml4ZUR5UElNQ1Y4U2dKMUVOQnA1dzJrZjVLOHdLeDVGVWFQazRLTEhRPQ2\">21-22 MP2 Interim</a>",
+        "DocumentCategory": "Interim Progress Report"
+      },
+      {
+        "DocumentUploadDate": "11/11/2021",
+        "DocumentTitle": "<a target=\"_blank\" href=\"PXP_ShowDocument.aspx?AGU=&docToken=a0ZhSkZCNm1DTGZaeUtMK0RiUWhiMEZORm1CMkx2aTU5cVlwOEhlSjJXcVBvSndNZi9OR2pEbmVoVExnRUxockQ3cC9zZHg2eHVuc3VoQnlSNjAxVUxYaHJ1RXIwT0FNd2haZE5iMXFEbDV4QXVQY2lTd1AvSS82OHZNZEVnVjJacnRIRkVzRmFsZ0V6T1VJc3hHVEhvRS9QWUZvblFoelNnbWRjSlNQUTIwPQ2\">21-22 MP1 Report Card</a>",
+        "DocumentCategory": "Report Card"
+      },
+      {
+        "DocumentUploadDate": "10/25/2021",
+        "DocumentTitle": "<a target=\"_blank\" href=\"PXP_ShowDocument.aspx?AGU=&docToken=a0ZhSkZCNm1DTGZaeUtMK0RiUWhiMEZORm1CMkx2aTU5cVlwOEhlSjJXcVBvSndNZi9OR2pEbmVoVExnRUxocjdxb0lSaUZBN2JFa1paSGFNNVZJRnRVemZ4QVFnd01aV3l2cVFuQzRLbXlUSFRDUkkvdW12VFNCT1diMlpYdVIyK0ozRXpZMkxWT004aTJXVGM0RWNja1dhSVM0TEx2bG43ZEZrR20yYzhJPQ2\">MAP Report - Fall 2021</a>",
+        "DocumentCategory": "MAP Reports"
+      },
+      {
+        "DocumentUploadDate": "10/13/2021",
+        "DocumentTitle": "<a target=\"_blank\" href=\"PXP_ShowDocument.aspx?AGU=&docToken=a0ZhSkZCNm1DTGZaeUtMK0RiUWhiMEZORm1CMkx2aTU5cVlwOEhlSjJXcVBvSndNZi9OR2pEbmVoVExnRUxocm9WVHFrWXh1bXR2NTkwZlVNZHJ0Y1c4TmErU00vZ2F2ejB3NnEvdENSVytJRlh2ZENkMzlGRXF3VDVnV0FXdDEvcUpudDdnd29lcTN1bm9WeGxWQXFLRjBGZEhvNEtNS1poVTZiVGlaVGNvPQ2\">21-22 MP1 Interim</a>",
+        "DocumentCategory": "Interim Progress Report"
+      },
+      {
+        "DocumentUploadDate": "07/24/2021",
+        "DocumentTitle": "<a target=\"_blank\" href=\"PXP_ShowDocument.aspx?AGU=&docToken=a0ZhSkZCNm1DTGZaeUtMK0RiUWhiMEZORm1CMkx2aTU5cVlwOEhlSjJXcVBvSndNZi9OR2pEbmVoVExnRUxocmlJMDVJemVJbkU2UlZYQk1DeSswY1ozTkhkOXErTUx3RVNHWDFLREtOZWhLWFJjd3JyakszYTA1Z0lJamcyL1ZPYWUvR3U4M0d4ck9HTmdtS09wYktrSjUyL256NGNPZ2JxajVRa0ZJU0NjPQ2\">MAP Report - Spring 2021</a>",
+        "DocumentCategory": "MAP Reports"
+      },
+      {
+        "DocumentUploadDate": "06/23/2021",
+        "DocumentTitle": "<a target=\"_blank\" href=\"PXP_ShowDocument.aspx?AGU=&docToken=a0ZhSkZCNm1DTGZaeUtMK0RiUWhiMEZORm1CMkx2aTU5cVlwOEhlSjJXcVBvSndNZi9OR2pEbmVoVExnRUxoclFNaURqdEJ1OEZpdURzKzNaamVoTkJuRC9wOHlUMEUyanF5ZlVHMDZDZjJXc2tRMVE3bDhWZmtMeEh0M2I3N1l3Rk1NVDBPZGVOcXF0Mk9RL0wzanZMdnU0SFRZRTYydkUraW16QUl4K2JvPQ2\">20-21 MP4 Report Card</a>",
+        "DocumentCategory": "Report Card"
+      },
+      {
+        "DocumentUploadDate": "05/17/2021",
+        "DocumentTitle": "<a target=\"_blank\" href=\"PXP_ShowDocument.aspx?AGU=&docToken=a0ZhSkZCNm1DTGZaeUtMK0RiUWhiMEZORm1CMkx2aTU5cVlwOEhlSjJXcVBvSndNZi9OR2pEbmVoVExnRUxoci9XeXJOTWVNL2JCeExjcHZJMC9FcUUzd2VFOUVMSGJBRHluYmZxMHd1ZXBkMFVrdWUwM1d2ZTUweVJCVjhqRUpReVVKcUtnWTBhciswUGFDRjZudHYrcG5RRy9TNXdoNnB2ZzBRU0RPcUFNPQ2\">20-21 MP4 Interim</a>",
+        "DocumentCategory": "Interim Progress Report"
+      },
+      {
+        "DocumentUploadDate": "04/27/2021",
+        "DocumentTitle": "<a target=\"_blank\" href=\"PXP_ShowDocument.aspx?AGU=&docToken=a0ZhSkZCNm1DTGZaeUtMK0RiUWhiMEZORm1CMkx2aTU5cVlwOEhlSjJXcVBvSndNZi9OR2pEbmVoVExnRUxocnRGZ2o1eUVtM05hdERjWUhHSW1SQ1RPQ3dINXEvWUlnQ3RvQlE1UUJLUVpaTERXcGdhdjJOakljRW1yZ00wN1JSUDNQM0VGQnY2TXZQb21MbDJKWlV6cGFubEVVZjZyYzJxT0Y0UGYyV3dnPQ2\">20-21 MP3 Report Card</a>",
+        "DocumentCategory": "Report Card"
+      },
+      {
+        "DocumentUploadDate": "03/17/2021",
+        "DocumentTitle": "<a target=\"_blank\" href=\"PXP_ShowDocument.aspx?AGU=&docToken=a0ZhSkZCNm1DTGZaeUtMK0RiUWhiMEZORm1CMkx2aTU5cVlwOEhlSjJXcVBvSndNZi9OR2pEbmVoVExnRUxoclozV0s3YmFOS3pBNWQrNHNUMGxNcFZ5RnluejFYUSt3WGtNSVJsR0VPazE0c1lUTlhGUFlUN013cncxakZRQkpGdCswZDVyam9wR2huMDRhWUtQa0xVOFNUSlZ5MXQyUHFqMXVCNU1OelNFPQ2\">20-21 MP3 Interim</a>",
+        "DocumentCategory": "Interim Progress Report"
+      },
+      {
+        "DocumentUploadDate": "02/10/2021",
+        "DocumentTitle": "<a target=\"_blank\" href=\"PXP_ShowDocument.aspx?AGU=&docToken=a0ZhSkZCNm1DTGZaeUtMK0RiUWhiMEZORm1CMkx2aTU5cVlwOEhlSjJXcVBvSndNZi9OR2pEbmVoVExnRUxocjVvdlRocVlJNlZKMWRiRjJlYnNkOHdIaGRWcERmL1lvRFlPVkMrMnF4YisvU28rNzRrbkkwb1R1Mjk4b1E1anNQZEZYQzlrVkdqeEVrcHV6d1o4b3phejEySlhidmZqVzhjNEgwcGF0NFY0PQ2\">20-21 MP2 Report Card</a>",
+        "DocumentCategory": "Report Card"
+      },
+      {
+        "DocumentUploadDate": "12/21/2020",
+        "DocumentTitle": "<a target=\"_blank\" href=\"PXP_ShowDocument.aspx?AGU=&docToken=a0ZhSkZCNm1DTGZaeUtMK0RiUWhiMEZORm1CMkx2aTU5cVlwOEhlSjJXcVBvSndNZi9OR2pEbmVoVExnRUxocm12S1R3c3hHV0VqYzF0aTVWaWhHclpBREUrOWlNUUJrWnkycHhHbVNPa0NsYTV1dndxcVd3aTd1ZnVLTTNBTzE0QWhyTWVCLzZRM1hKNFoxYXVKRnJsWGdRRld5Uko2bmx2d1k4NVkvZ200PQ2\">20-21 MP2 Interim</a>",
+        "DocumentCategory": "Interim Progress Report"
+      },
+      {
+        "DocumentUploadDate": "11/19/2020",
+        "DocumentTitle": "<a target=\"_blank\" href=\"PXP_ShowDocument.aspx?AGU=&docToken=a0ZhSkZCNm1DTGZaeUtMK0RiUWhiMEZORm1CMkx2aTU5cVlwOEhlSjJXcVBvSndNZi9OR2pEbmVoVExnRUxoclhDbmRDN1pFK2hlWk03TlN4QXgzY2JIZmtFcEdHbldwQlRBUEM2OVhoRGlBTVRYbTI1K1FlUlYyb0k3a3h6RU1oQWp1WG90QU8vWUs2SUFBYW90aE11b01KYm9GZzhVSWZkNCtzWU1FQS9JPQ2\">MAP Report - Fall 2020</a>",
+        "DocumentCategory": "MAP Reports"
+      },
+      {
+        "DocumentUploadDate": "11/20/2020",
+        "DocumentTitle": "<a target=\"_blank\" href=\"PXP_ShowDocument.aspx?AGU=&docToken=a0ZhSkZCNm1DTGZaeUtMK0RiUWhiMEZORm1CMkx2aTU5cVlwOEhlSjJXcVBvSndNZi9OR2pEbmVoVExnRUxocjRJUEdNYkQwZC8wM0ZsWU5sQms3aEVnSTR0QXVEdlFEeVdBTHQralFDREF0RW5EN3pDQ29XSm92eWkzcWk5aHQwTmRnWFdya0M3TCtlc1JYT0p1a1Y1eXFLaitMMHg2NWIxdHN3bEgwY0xZPQ2\">20-21 MP1 Report Card</a>",
+        "DocumentCategory": "Report Card"
+      },
+      {
+        "DocumentUploadDate": "10/05/2020",
+        "DocumentTitle": "<a target=\"_blank\" href=\"PXP_ShowDocument.aspx?AGU=&docToken=a0ZhSkZCNm1DTGZaeUtMK0RiUWhiMEZORm1CMkx2aTU5cVlwOEhlSjJXcVBvSndNZi9OR2pEbmVoVExnRUxockg5NkhtSzNsZ2wvT2tzVGh3bE55bVM5VDZxQUpjQ3JiWnE2WFNCTEh1R0tEVFBJSnJ4TEMxZEh1djlRQnp0Uno3WVBDSEgvRHpxeGlSdThOZEVaVnVONXN6YVovVjJVejRqRXBqWDFWc3VBPQ2\">20-21 MP1 Interim</a>",
+        "DocumentCategory": "Interim Progress Report"
+      }
+    ],
+    "noDataText": "No Data to Display",
+    "rowAlternationEnabled": true
+  }
