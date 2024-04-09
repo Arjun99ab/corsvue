@@ -11,7 +11,7 @@ app.use(bodyParser.json({limit: myLimit}));
 app.all('*', function (req, res, next) {
 
     // Set CORS headers: allow all origins, methods, and headers: you may want to lock this down in a production environment
-    res.header("Access-Control-Allow-Origin", "https://grademelon.arjun.tech");
+    res.header("Access-Control-Allow-Origin", "https://grademelon.arjun.tech"); //http://localhost:3000
     res.header("Access-Control-Allow-Methods", "GET, PUT, PATCH, POST, DELETE");
     res.header("Access-Control-Allow-Headers", req.header('access-control-request-headers'));
     res.header("Access-Control-Allow-Credentials", 'true');
@@ -35,7 +35,7 @@ app.all('*', function (req, res, next) {
     }
 });
 
-app.set('port', 3000);
+app.set('port', 3001);
 
 app.listen(app.get('port'), function () {
     console.log('Proxy server listening on port ' + app.get('port'));
